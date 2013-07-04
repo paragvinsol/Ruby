@@ -1,5 +1,5 @@
 puts "Enter Your Password"
 
-password = gets
+password = gets.chomp
 
 puts password.gsub(/a|e|i|o|u/,'*')
